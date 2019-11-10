@@ -38,7 +38,7 @@ ToDO
 You can understand better the endpoints visiting swagger
 
 ```
-18.204.21.240:80/apidocs
+18.204.21.240:5000/apidocs
 ```
 
 ## Deployment
