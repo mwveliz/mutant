@@ -50,7 +50,7 @@ coverage.py report
 You can understand better the endpoints visiting swagger
 
 ```
-18.204.21.240:5000/apidocs
+54.89.177.25:5000/apidocs
 ```
 
 ## Deployment
