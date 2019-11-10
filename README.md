@@ -30,9 +30,21 @@ pip3 install -r requirements.txt
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Running the tests and coverage
 
-ToDO
+For running the tests use pytest this will put the server up and test
+
+
+```
+pytest test.py
+```
+
+See coverage on coverage report
+
+```
+coverage.py report
+```
+
 ### Swagger
 
 You can understand better the endpoints visiting swagger

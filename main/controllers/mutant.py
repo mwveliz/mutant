@@ -2,7 +2,7 @@ import json
 from flask import current_app as app
 from flask import jsonify, request
 from flask_restful import Resource
-from flask import Response
+from flask import Response, make_response
 import time
 from itertools import groupby
 import random
@@ -93,8 +93,9 @@ class mutant(Resource):
 
           header = {"success":False, "code": 403, "message":"Forbidden", "version":"2.0.0", "timestamp": int(time.time())}
           if(self.InDB(adnString, 0)):
-              print('not in db, inserting')                      
-          return jsonify({"header" : header, "body":False})
+              print('not in db, inserting')                     
+            
+          return make_response(jsonify({"header" : header, "body":False}), 403)
 
         except Exception as e:
           print(str(e))
