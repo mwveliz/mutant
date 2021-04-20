@@ -32,7 +32,7 @@ packaging==19.2
 pluggy==0.13.0
 post==2019.4.13
 public==2019.4.13
-py==1.8.0
+py==1.10.0
 pycosat==0.6.3
 pycparser==2.19
 pymongo==3.8.0
