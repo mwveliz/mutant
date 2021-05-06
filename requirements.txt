@@ -11,7 +11,7 @@ cryptography==3.3.2
 et-xmlfile==1.0.1
 flasgger==0.9.3
 Flask==1.1.1
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 Flask-RESTful==0.3.7
 Flask-Testing==0.7.1
 get==2019.4.13
